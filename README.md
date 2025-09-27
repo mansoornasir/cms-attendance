@@ -6,6 +6,9 @@ Automated attendance marking for ICP CMS portal using Playwright.
 
 1. **Install dependencies:**
    ```bash
+   Downlaod and install NodeJS -> https://nodejs.org/en/download/current
+   After installing NodeJS, navigate to the attendance directory and run the following commands inside the attendance directory (this needs to be done one time only)
+
    npm install
    npx playwright install chromium
    ```
