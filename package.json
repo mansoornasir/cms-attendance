@@ -1,0 +1,31 @@
+{
+  "name": "icp-cms-attendance-automation",
+  "version": "1.0.0",
+  "description": "Automated attendance marking for ICP CMS portal using Playwright",
+  "main": "attendance.js",
+  "scripts": {
+    "mark-attendance": "node attendance.js",
+    "install-deps": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "attendance",
+    "icp-cms",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
